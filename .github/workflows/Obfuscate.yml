@@ -30,7 +30,7 @@ jobs:
 
       - name: Download and extract latest BPB worker
         run: |
-          wget https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/download/worker.zip
+          wget https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/worker.zip
           unzip -o worker.zip
           mv _worker.js origin.js
 
